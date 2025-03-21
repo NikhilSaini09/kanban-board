@@ -1,0 +1,124 @@
+.card {
+    position: relative;
+    height: 81px;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 16px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    position: absolute;
+    top: 13px;
+}
+
+.card-id {
+    font-size: 12px;
+    color: #6b7280;
+    padding-left: 6px;
+}
+
+.profile-icon {
+    position: absolute;
+    top: 13px;
+    right: 12px;
+}
+
+.card-avatar {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.availability-indicator {
+    position: absolute;
+    top: 28px;
+    right: 12px;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4px;
+    font-weight: bold;
+}
+
+.available {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.not-available {
+    background-color: #ccc;
+}
+
+.card-title {
+    position: absolute;
+    top: 27px;
+    padding-left: 5px;
+}
+
+.card-title2 {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.card-title2 img {
+    width: 12px;
+    height: 12px;
+}
+
+.card-title2 p {
+    font-size: 11px;
+    font-weight: bold;
+    padding-right: 4px;
+}
+
+.card-footer {
+    position: absolute;
+    bottom: 12px;
+}
+
+.card-footer2 {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    padding: 0px 0px 0px 5px;
+}
+
+.priority-icon {
+    height: 18px;
+}
+
+.priority-icon img {
+    width: 12px;
+    height: 12px;
+    padding: 2px;
+    border: 1px solid rgb(236, 236, 236);
+    border-radius: 5px;
+}
+
+.card-footer-part {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    padding: 2px 5px 2px 4px;
+    border: 1px solid rgb(236, 236, 236);
+    border-radius: 5px;
+}
+
+.card-footer-part img {
+    width: 12px;
+    height: 12px;
+}
+
+.card-footer-part span {
+    font-size: 11px;
+    color: grey;
+    height: 12px;
+}
