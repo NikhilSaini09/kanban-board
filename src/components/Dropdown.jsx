@@ -29,9 +29,9 @@ const Dropdown = ({ viewState, setViewState }) => {
     return (
         <div className="dropdown" ref={dropdownRef}>
             <button onClick={() => setIsOpen(!isOpen)} className="display-button">
-                <img src="/assets/Display.svg" alt=" " />
+                <img src="assets/Display.svg" alt=" " />
                 Display
-                <img src="/assets/down.svg" alt=" " />
+                <img src="assets/down.svg" alt=" " />
             </button>
 
             {isOpen && (

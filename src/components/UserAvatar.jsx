@@ -1,11 +1,11 @@
 import React from "react";
 
 const profileIcons = [
-    "/assets/profileIcons/profile1.svg",
-    "/assets/profileIcons/profile2.svg",
-    "/assets/profileIcons/profile3.svg",
-    "/assets/profileIcons/profile4.svg",
-    "/assets/profileIcons/profile5.svg",
+    "assets/profileIcons/profile1.svg",
+    "assets/profileIcons/profile2.svg",
+    "assets/profileIcons/profile3.svg",
+    "assets/profileIcons/profile4.svg",
+    "assets/profileIcons/profile5.svg",
 ];
 
 const UserAvatar = ({ user, index, group, groupedTickets }) => {
@@ -25,8 +25,8 @@ const UserAvatar = ({ user, index, group, groupedTickets }) => {
                         <p className="no-of-tickets">{groupedTickets[group].length}</p>
                     </div>
                     <div className="column-header4">
-                        <img src="/assets/add.svg" alt=" " />
-                        <img src="/assets/3 dot menu.svg" alt=" " />
+                        <img src="assets/add.svg" alt=" " />
+                        <img src="assets/3 dot menu.svg" alt=" " />
                     </div>
                 </div>
             </div>

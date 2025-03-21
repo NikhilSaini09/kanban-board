@@ -5,18 +5,18 @@ import UserAvatar from "./UserAvatar";
 const allStatuses = ["Backlog", "Todo", "In progress", "Done", "Canceled"];
 const priorityLabels = ["No priority", "Low", "Medium", "High", "Urgent"];
 const statusIcons = [
-    "/assets/Backlog.svg",
-    "/assets/To-do.svg",
-    "/assets/in-progress.svg",
-    "/assets/Done.svg",
-    "/assets/Cancelled.svg",
+    "assets/Backlog.svg",
+    "assets/To-do.svg",
+    "assets/in-progress.svg",
+    "assets/Done.svg",
+    "assets/Cancelled.svg",
 ];
 const priorityIcons = [
-    "/assets/No-priority.svg",
-    "/assets/Img - Low Priority.svg",
-    "/assets/Img - Medium Priority.svg",
-    "/assets/Img - High Priority.svg",
-    "/assets/SVG - Urgent Priority colour.svg",
+    "assets/No-priority.svg",
+    "assets/Img - Low Priority.svg",
+    "assets/Img - Medium Priority.svg",
+    "assets/Img - High Priority.svg",
+    "assets/SVG - Urgent Priority colour.svg",
 ];
 
 const groupTickets = (tickets, grouping, users) => {
@@ -78,8 +78,8 @@ const KanbanBoard = ({ tickets, users, viewState }) => {
                                     <span className="no-of-tickets">{groupedTickets[group].length}</span>
                                 </div>
                                 <div className="column-header4">
-                                    <img src="/assets/add.svg" alt=" " />
-                                    <img src="/assets/3 dot menu.svg" alt=" " />
+                                    <img src="assets/add.svg" alt=" " />
+                                    <img src="assets/3 dot menu.svg" alt=" " />
                                 </div>
                             </div>
                         )}
@@ -99,8 +99,8 @@ const KanbanBoard = ({ tickets, users, viewState }) => {
                                     <span className="no-of-tickets">{groupedTickets[group].length}</span>
                                 </div>
                                 <div className="column-header4">
-                                    <img src="/assets/add.svg" alt=" " />
-                                    <img src="/assets/3 dot menu.svg" alt=" " />
+                                    <img src="assets/add.svg" alt=" " />
+                                    <img src="assets/3 dot menu.svg" alt=" " />
                                 </div>
                             </div>
                         )}

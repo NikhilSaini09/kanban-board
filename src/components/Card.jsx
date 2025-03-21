@@ -5,25 +5,25 @@ import "./Card.css";
 
 const priorityLabels = ["No priority", "Low", "Medium", "High", "Urgent"];
 const priorityIcons = [
-    "/assets/No-priority.svg",
-    "/assets/Img - Low Priority.svg",
-    "/assets/Img - Medium Priority.svg",
-    "/assets/Img - High Priority.svg",
-    "/assets/SVG - Urgent Priority grey.svg",
+    "assets/No-priority.svg",
+    "assets/Img - Low Priority.svg",
+    "assets/Img - Medium Priority.svg",
+    "assets/Img - High Priority.svg",
+    "assets/SVG - Urgent Priority grey.svg",
 ];
 const profileIcons = [
-    "/assets/profileIcons/profile1.svg",
-    "/assets/profileIcons/profile2.svg",
-    "/assets/profileIcons/profile3.svg",
-    "/assets/profileIcons/profile4.svg",
-    "/assets/profileIcons/profile5.svg",
+    "assets/profileIcons/profile1.svg",
+    "assets/profileIcons/profile2.svg",
+    "assets/profileIcons/profile3.svg",
+    "assets/profileIcons/profile4.svg",
+    "assets/profileIcons/profile5.svg",
 ];
 const statusIcons = {
-    "Backlog": "/assets/Backlog.svg",
-    "Todo": "/assets/To-do.svg",
-    "In progress": "/assets/in-progress.svg",
-    "Done": "/assets/Done.svg",
-    "Cancelled": "/assets/Cancelled.svg",
+    "Backlog": "assets/Backlog.svg",
+    "Todo": "assets/To-do.svg",
+    "In progress": "assets/in-progress.svg",
+    "Done": "assets/Done.svg",
+    "Cancelled": "assets/Cancelled.svg",
 };
 
 const getStatusIcon = (status) => statusIcons[status] || profileImage;
